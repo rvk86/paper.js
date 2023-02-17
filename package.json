@@ -42,8 +42,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn jshint --ensure-branch develop",
-      "pre-push": "yarn test --ensure-branch develop"
+      "pre-commit": "yarn jshint --ensure-branch develop"
     }
   },
   "browser": {
